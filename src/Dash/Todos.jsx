@@ -4,12 +4,20 @@ import { PieChart, Pie, Cell, Tooltip } from "recharts";
 
 export default function Todos() {
   const tasks = [
-    "✅ Complete React assignment",
-    "📖 Revise DSA concepts",
-    "📚 Read 10 pages of a book",
-    "💻 Work on web development project",
-    "🧠 Practice coding problems",
-    "🪥Brush your Teeth *specially for you"
+  "Exercise ",
+    "Chanting",
+    "Read book",
+    "Meditation",
+    "Wake up Between 6 to 7 am",
+    "Slept well (day before today)",
+
+    "DSA(Theory + Code)",
+    "CS Fundamentals",
+
+    
+    "Head Massage",
+    "Face Massage",
+    
   ];
 
   const [completedTasks, setCompletedTasks] = useState(
